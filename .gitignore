@@ -1,0 +1,16 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+
+# Scratch / practice archives (kept locally, not tracked)
+scratch.zip
+scratch/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
