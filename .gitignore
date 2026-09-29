@@ -14,3 +14,5 @@ Thumbs.db
 # Editor folders
 .vscode/
 .idea/
+.agents/
+

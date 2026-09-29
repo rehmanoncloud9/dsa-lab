@@ -18,6 +18,8 @@ This repo has all my lab submissions for the DSA course. Each folder is one lab 
 | [Lab 01](./dsa-lab01/) | Arrays, Basic OOP, and Git | 7 tasks |
 | [Lab 02](./dsa-lab-02/) | Pointers and Dynamic Memory | 6 tasks |
 | [Lab 03](./dsa-lab-03/) | Structs and Pointer-to-Struct | 6 tasks |
+| [Lab 04](./dsa-lab-04/) | Singly Linked Lists | 6 tasks |
+
 
 ---
 
@@ -73,4 +75,22 @@ Covers defining `struct`, stack vs heap allocation, the arrow operator, passing 
 
 ---
 
+## Lab 04 - Singly Linked Lists
+
+**Folder:** [`dsa-lab-04/`](./dsa-lab-04/)
+
+Covers singly linked list implementation with dynamic node allocation, traversal, insertion at head and tail, 1-based linear search, boundary-safe deletion, node counting, second node access, and a full menu-driven application.
+
+| File | What it does |
+|------|--------------|
+| [Q1.cpp](./dsa-lab-04/Q1.cpp) | Custom `node` and `List` class, allocates and links 3 nodes, traverses and prints |
+| [Q2.cpp](./dsa-lab-04/Q2.cpp) | Appends `n` nodes via loop using `AddNode()`, counts total nodes |
+| [Q3.cpp](./dsa-lab-04/Q3.cpp) | Searches for values returning 1-based position, accesses and displays the 2nd node |
+| [Q4.cpp](./dsa-lab-04/Q4.cpp) | Inserts nodes at the beginning in O(1) time and at the end, tracking list order |
+| [Q5.cpp](./dsa-lab-04/Q5.cpp) | Deletes node by value with complete boundary handling (head, middle, tail, single node) |
+| [Q6.cpp](./dsa-lab-04/Q6.cpp) | Interactive menu-driven application integrating all list operations with safe memory cleanup |
+
+---
+
 *New labs will be added here as the semester progresses.*
+
