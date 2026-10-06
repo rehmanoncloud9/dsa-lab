@@ -19,6 +19,7 @@ This repo has all my lab submissions for the DSA course. Each folder is one lab 
 | [Lab 02](./dsa-lab-02/) | Pointers and Dynamic Memory | 6 tasks |
 | [Lab 03](./dsa-lab-03/) | Structs and Pointer-to-Struct | 6 tasks |
 | [Lab 04](./dsa-lab-04/) | Singly Linked Lists | 6 tasks |
+| [Lab 05](./dsa-lab-05/) | Doubly & Circular Linked Lists, Stacks | 6 tasks |
 
 
 ---
@@ -89,6 +90,23 @@ Covers singly linked list implementation with dynamic node allocation, traversal
 | [Q4.cpp](./dsa-lab-04/Q4.cpp) | Inserts nodes at the beginning in O(1) time and at the end, tracking list order |
 | [Q5.cpp](./dsa-lab-04/Q5.cpp) | Deletes node by value with complete boundary handling (head, middle, tail, single node) |
 | [Q6.cpp](./dsa-lab-04/Q6.cpp) | Interactive menu-driven application integrating all list operations with safe memory cleanup |
+
+---
+
+## Lab 05 - Doubly & Circular Linked Lists, Stacks
+
+**Folder:** [`dsa-lab-05/`](./dsa-lab-05/)
+
+Covers doubly linked lists with bi-directional traversal, node insertion before a position, deletion handling, circular linked lists with cycle management and safe deletion, array stack with fixed capacity overflow/underflow, and dynamically linked stack with an interactive CLI menu.
+
+| File | What it does |
+|------|--------------|
+| [Q1.cpp](./dsa-lab-05/Q1.cpp) | Doubly linked list, O(1) tail append, forward and reverse traversal |
+| [Q2.cpp](./dsa-lab-05/Q2.cpp) | Doubly linked list: insert before position and delete by value with edge cases |
+| [Q3.cpp](./dsa-lab-05/Q3.cpp) | Singly circular linked list: add node, cycle-safe display, count, and safe cleanup |
+| [Q4.cpp](./dsa-lab-05/Q4.cpp) | Circular linked list: delete node handling head, tail, middle, and single-node list |
+| [Q5.cpp](./dsa-lab-05/Q5.cpp) | Fixed-capacity array stack (5 items): push, pop, peek, overflow/underflow handling |
+| [Q6.cpp](./dsa-lab-05/Q6.cpp) | Linked list stack: dynamic LIFO push/pop/peek with an interactive CLI menu |
 
 ---
 
