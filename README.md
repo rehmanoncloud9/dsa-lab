@@ -20,7 +20,7 @@ This repo has all my lab submissions for the DSA course. Each folder is one lab 
 | [Lab 03](./dsa-lab-03/) | Structs and Pointer-to-Struct | 6 tasks |
 | [Lab 04](./dsa-lab-04/) | Singly Linked Lists | 6 tasks |
 | [Lab 05](./dsa-lab-05/) | Doubly & Circular Linked Lists, Stacks | 6 tasks |
-
+| [Lab 06](./dsa-lab-06/) | Stacks and Linear Array Queues | 6 tasks |
 
 ---
 
@@ -107,6 +107,23 @@ Covers doubly linked lists with bi-directional traversal, node insertion before 
 | [Q4.cpp](./dsa-lab-05/Q4.cpp) | Circular linked list: delete node handling head, tail, middle, and single-node list |
 | [Q5.cpp](./dsa-lab-05/Q5.cpp) | Fixed-capacity array stack (5 items): push, pop, peek, overflow/underflow handling |
 | [Q6.cpp](./dsa-lab-05/Q6.cpp) | Linked list stack: dynamic LIFO push/pop/peek with an interactive CLI menu |
+
+---
+
+## Lab 06 - Stacks and Queues
+
+**Folder:** [`dsa-lab-06/`](./dsa-lab-06/)
+
+Covers array-based stack implementation with overflow and underflow detection, linked list stack with dynamic memory management, word reversal using stack LIFO properties, array-based linear queue insertion and removal handling front and rear lifecycle resets, and an interactive customer service ticketing queue CLI application.
+
+| File | What it does |
+|------|--------------|
+| [Q1.cpp](./dsa-lab-06/Q1.cpp) | Stack using array (size 5): push, pop, peek, display, overflow and underflow handling |
+| [Q2.cpp](./dsa-lab-06/Q2.cpp) | Stack using singly linked list: dynamic node push, pop, peek, and heap cleanup |
+| [Q3.cpp](./dsa-lab-06/Q3.cpp) | Reverses a user-input word using an array-based character stack |
+| [Q4.cpp](./dsa-lab-06/Q4.cpp) | Linear array queue: enqueue operations, front and rear tracking, overflow block |
+| [Q5.cpp](./dsa-lab-06/Q5.cpp) | Linear array queue: dequeue and peekFront operations, queue reset on empty |
+| [Q6.cpp](./dsa-lab-06/Q6.cpp) | Customer service queue CLI: interactive menu for token issue, serving, and viewing |
 
 ---
 
