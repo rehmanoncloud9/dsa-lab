@@ -1,14 +1,8 @@
-Department of Computing
-CS: Data Structures and Algorithms
-Class: BSCS-15E
+Data Structures & Algorithms (CS) - BSCS-15E
 Instructor: Ma'am Sara Tariq Sheikh
-Lab Engineer: Ma'am Urooj Akmal
+Lab Engineer: Sir Hassan Mohtashim
 
-Student Name: Abdul Rehman
-Registration Number: 576841
+Student: Abdul Rehman (576841)
+Repository: https://github.com/rehmanoncloud9/dsa-lab
 
-GitHub Repository: https://github.com/rehmanoncloud9/dsa-lab
-
-All lab submissions for this course are available at the link above.
-Each lab has its own folder with the task files and a README describing what each program does.
-New labs will be added to the same repository as the semester continues.
+All lab submissions and task documentation for this course are maintained in the GitHub repo above, organized by lab folder.

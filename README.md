@@ -21,6 +21,7 @@ This repo has all my lab submissions for the DSA course. Each folder is one lab 
 | [Lab 04](./dsa-lab-04/) | Singly Linked Lists | 6 tasks |
 | [Lab 05](./dsa-lab-05/) | Doubly & Circular Linked Lists, Stacks | 6 tasks |
 | [Lab 06](./dsa-lab-06/) | Stacks and Linear Array Queues | 6 tasks |
+| [Lab 07](./dsa-lab-07/) | Circular Queues and Deques | 6 tasks |
 
 ---
 
@@ -124,6 +125,23 @@ Covers array-based stack implementation with overflow and underflow detection, l
 | [Q4.cpp](./dsa-lab-06/Q4.cpp) | Linear array queue: enqueue operations, front and rear tracking, overflow block |
 | [Q5.cpp](./dsa-lab-06/Q5.cpp) | Linear array queue: dequeue and peekFront operations, queue reset on empty |
 | [Q6.cpp](./dsa-lab-06/Q6.cpp) | Customer service queue CLI: interactive menu for token issue, serving, and viewing |
+
+---
+
+## Lab 07 - Circular Queues and Deques
+
+**Folder:** [`dsa-lab-07/`](./dsa-lab-07/)
+
+Covers linear array queue false overflow limitations, dynamic singly linked queues with O(1) front and rear operations, circular array queues with modulo wrap-around arithmetic, rotating service turn scheduling (round-robin), circular array deques with bidirectional insertions and deletions, and an interactive menu-driven doubly linked deque with full dynamic memory cleanup.
+
+| File | What it does |
+|------|--------------|
+| [Q1.cpp](./dsa-lab-07/Q1.cpp) | Linear array queue (size 5): demonstrates false overflow (`rear == SIZE - 1`) and empty reset |
+| [Q2.cpp](./dsa-lab-07/Q2.cpp) | Singly linked queue: dynamic node allocation, O(1) enqueue/dequeue, and `ClearQueue()` |
+| [Q3.cpp](./dsa-lab-07/Q3.cpp) | Circular array queue: ring buffer modulo arithmetic `(i + 1) % SIZE`, wrap-around inserts, and display |
+| [Q4.cpp](./dsa-lab-07/Q4.cpp) | Circular queue application: round-robin rotating service turns (`RotateTurn()`) preserving student queue |
+| [Q5.cpp](./dsa-lab-07/Q5.cpp) | Circular array deque: `InsertFront`, `InsertRear`, `DeleteFront`, `DeleteRear` with safe modulo offsets |
+| [Q6.cpp](./dsa-lab-07/Q6.cpp) | Menu-driven doubly linked deque: CLI interface for bidirectional insertions/deletions and clean exit deallocation |
 
 ---
 
