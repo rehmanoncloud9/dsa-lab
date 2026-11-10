@@ -22,6 +22,8 @@ This repo has all my lab submissions for the DSA course. Each folder is one lab 
 | [Lab 05](./dsa-lab-05/) | Doubly & Circular Linked Lists, Stacks | 6 tasks |
 | [Lab 06](./dsa-lab-06/) | Stacks and Linear Array Queues | 6 tasks |
 | [Lab 07](./dsa-lab-07/) | Circular Queues and Deques | 6 tasks |
+| [Lab 08](./dsa-lab-08/) | Binary Trees and Binary Search Trees | 6 tasks |
+| [Lab 09](./dsa-lab-09/) | Student Help Desk System (Linked List & Queue) | 1 task |
 
 ---
 
@@ -142,6 +144,35 @@ Covers linear array queue false overflow limitations, dynamic singly linked queu
 | [Q4.cpp](./dsa-lab-07/Q4.cpp) | Circular queue application: round-robin rotating service turns (`RotateTurn()`) preserving student queue |
 | [Q5.cpp](./dsa-lab-07/Q5.cpp) | Circular array deque: `InsertFront`, `InsertRear`, `DeleteFront`, `DeleteRear` with safe modulo offsets |
 | [Q6.cpp](./dsa-lab-07/Q6.cpp) | Menu-driven doubly linked deque: CLI interface for bidirectional insertions/deletions and clean exit deallocation |
+
+---
+
+## Lab 08 - Binary Trees and Binary Search Trees
+
+**Folder:** [`dsa-lab-08/`](./dsa-lab-08/)
+
+Covers building binary trees by manually linking nodes with `new`/`delete`, all three recursive depth-first traversal orders (inorder, preorder, postorder), breadth-first level-order traversal with a queue, iterative DFS traversals using an explicit stack, recursive and iterative BST search exploiting left-less/right-greater ordering, and recursive and iterative BST insertion with duplicate handling and skewed-tree analysis.
+
+| File | What it does |
+|------|--------------|
+| [Q1.cpp](./dsa-lab-08/Q1.cpp) | Recursive inorder, preorder, and postorder traversal of a 7-node binary tree with null and single-node edge case tests |
+| [Q2.cpp](./dsa-lab-08/Q2.cpp) | Level-order (BFS) traversal using STL queue, visiting nodes row by row from root to leaves |
+| [Q3.cpp](./dsa-lab-08/Q3.cpp) | Iterative preorder and inorder using an explicit stack; output compared against recursive versions to confirm correctness |
+| [Q4.cpp](./dsa-lab-08/Q4.cpp) | BST search both recursive and iterative, with a path-printing helper that shows every node compared on the way to the target |
+| [Q5.cpp](./dsa-lab-08/Q5.cpp) | Recursive BST insertion returning the updated root at each call; duplicates silently ignored; inorder confirms sorted order after each insert |
+| [Q6.cpp](./dsa-lab-08/Q6.cpp) | Iterative BST insertion using parent/current pointer walk; builds matching trees via both methods; skewed-tree test demonstrates O(n) search cost |
+
+---
+
+## Lab 09 - Student Help Desk System
+
+**Folder:** [`dsa-lab-09/`](./dsa-lab-09/)
+
+Combines a singly linked list and a FIFO linked queue into an interactive student help desk system using pointers and dynamic memory management.
+
+| File | What it does |
+|------|--------------|
+| [student_help_desk.cpp](./dsa-lab-09/student_help_desk.cpp) | Manages student records in a singly linked list and processes support requests in a FIFO linked queue with full memory cleanup on exit |
 
 ---
 
